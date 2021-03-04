@@ -17,10 +17,10 @@ private:
 	Font title{ 40 };
 	Font text_gs{ 20 };
 	//素材
-	const Texture image_how_to_play{ U"material/common/how_to_play.png" };
-	const Audio bgm_clear{ U"material/common/bgm_02.mp3" ,Arg::loop = true };
-	const Audio bgm_any_01{ U"material/common/bgm_01.mp3" ,Arg::loop = true };
-	const Audio se_bottun{ U"material/common/se_bottun_01.mp3" };
+	const Texture image_how_to_play{ Resource(U"material/common/how_to_play.png") };
+	const Audio bgm_clear{ Resource(U"material/common/bgm_02.mp3") ,Arg::loop = true };
+	const Audio bgm_any_01{ Resource(U"material/common/bgm_01.mp3") ,Arg::loop = true };
+	const Audio se_bottun{ Resource(U"material/common/se_bottun_01.mp3") };
 
 	bool flag_sub_window;
 public:
@@ -72,9 +72,9 @@ protected:
 	int margin;
 	int flag_item_select;//初期値:-1、選択中アイテムのインデックス
 		//素材
-	const Texture image_how_to_play{ U"material/common/how_to_play.png" };
-	const Audio se_ui_button{ U"material/common/se_bottun_01.mp3" };
-	const Audio se_item_get{ U"material/common/se_item_01.mp3" };
+	const Texture image_how_to_play{ Resource(U"material/common/how_to_play.png")};
+	const Audio se_ui_button{ Resource(U"material/common/se_bottun_01.mp3") };
+	const Audio se_item_get{ Resource(U"material/common/se_item_01.mp3") };
 private:
 
 	int sub_window_kind;//初期値:-1、サブウィンドウの種類　0:アイテム 1:遊び方 2:ヒント 3:音量設定 4,6:遷移確認
@@ -122,29 +122,29 @@ private:
 	Holl holl[5];
 
 	//素材
-	const Texture wall_00_01{ U"material/room01/room_01_wall_00_01.png" };
-	const Texture wall_00_02{ U"material/room01/room_01_wall_00_02.png" };
-	const Texture wall_00_03{ U"material/room01/room_01_wall_00_03.png" };
-	const Texture wall_00_04{ U"material/room01/room_01_wall_00_04.png" };
-	const Texture wall_00_05{ U"material/room01/room_01_wall_00_05.png" };
-	const Texture wall_01_01{ U"material/room01/room_01_wall_01_01.png" };
-	const Texture wall_01_02{ U"material/room01/room_01_wall_01_02.png" };
-	const Texture wall_02_01{ U"material/room01/room_01_wall_02_01.png" };
-	const Texture wall_02_02{ U"material/room01/room_01_wall_02_02.png" };
-	const Texture wall_03_01{ U"material/room01/room_01_wall_03_01.png" };
-	const Texture wall_03_02{ U"material/room01/room_01_wall_03_02.png" };
+	const Texture wall_00_01{ Resource(U"material/room01/room_01_wall_00_01.png") };
+	const Texture wall_00_02{ Resource(U"material/room01/room_01_wall_00_02.png") };
+	const Texture wall_00_03{ Resource(U"material/room01/room_01_wall_00_03.png") };
+	const Texture wall_00_04{ Resource(U"material/room01/room_01_wall_00_04.png") };
+	const Texture wall_00_05{ Resource(U"material/room01/room_01_wall_00_05.png") };
+	const Texture wall_01_01{ Resource(U"material/room01/room_01_wall_01_01.png") };
+	const Texture wall_01_02{ Resource(U"material/room01/room_01_wall_01_02.png") };
+	const Texture wall_02_01{ Resource(U"material/room01/room_01_wall_02_01.png") };
+	const Texture wall_02_02{ Resource(U"material/room01/room_01_wall_02_02.png") };
+	const Texture wall_03_01{ Resource(U"material/room01/room_01_wall_03_01.png") };
+	const Texture wall_03_02{ Resource(U"material/room01/room_01_wall_03_02.png") };
 
-	const Texture ball_r{ U"material/room01/room_01_item_ball_r.png" };
-	const Texture ball_v{ U"material/room01/room_01_item_ball_v.png" };
-	const Texture ball_y{ U"material/room01/room_01_item_ball_y.png" };
-	const Texture ball_g{ U"material/room01/room_01_item_ball_g.png" };
-	const Texture ball_b{ U"material/room01/room_01_item_ball_b.png" };
+	const Texture ball_r{ Resource(U"material/room01/room_01_item_ball_r.png") };
+	const Texture ball_v{ Resource(U"material/room01/room_01_item_ball_v.png") };
+	const Texture ball_y{ Resource(U"material/room01/room_01_item_ball_y.png") };
+	const Texture ball_g{ Resource(U"material/room01/room_01_item_ball_g.png") };
+	const Texture ball_b{ Resource(U"material/room01/room_01_item_ball_b.png") };
 
-	const Audio bgm_01{U"material/room01/bgm_03.mp3",Arg::loop = true };
-	const Audio se_lock{U"material/room01/se_door_lock_01.mp3"};
-	const Audio se_unlock{ U"material/room01/se_door_unlock_02.mp3" };
-	const Audio se_bottun_panel{ U"material/room01/se_bottun_02.mp3" };
-	const Audio se_ball{ U"material/room01/se_grap_01.mp3" };
+	const Audio bgm_01{ Resource(U"material/room01/bgm_03.mp3"),Arg::loop = true };
+	const Audio se_lock{ Resource(U"material/room01/se_door_lock_01.mp3")};
+	const Audio se_unlock{ Resource(U"material/room01/se_door_unlock_02.mp3") };
+	const Audio se_bottun_panel{ Resource(U"material/room01/se_bottun_02.mp3") };
+	const Audio se_ball{ Resource(U"material/room01/se_grap_01.mp3") };
 
 public:
 	Room01();
@@ -174,29 +174,29 @@ private:
 	int flag_wall_01;//-1:未選択、0～5:前に選択したボタン
 
 	//素材
-	const Texture wall_00_01{ U"material/room02/room_02_wall_00_01.png" };
-	const Texture wall_00_02{ U"material/room02/room_02_wall_00_02.png" };
-	const Texture wall_00_03{ U"material/room02/room_02_wall_00_03.png" };
-	const Texture wall_00_04{ U"material/room02/room_02_wall_00_04.png" };
+	const Texture wall_00_01{ Resource(U"material/room02/room_02_wall_00_01.png") };
+	const Texture wall_00_02{ Resource(U"material/room02/room_02_wall_00_02.png") };
+	const Texture wall_00_03{ Resource(U"material/room02/room_02_wall_00_03.png") };
+	const Texture wall_00_04{ Resource(U"material/room02/room_02_wall_00_04.png") };
 	
-	const Texture wall_01_01{ U"material/room02/room_02_wall_01_01.png" };
+	const Texture wall_01_01{ Resource(U"material/room02/room_02_wall_01_01.png") };
 
-	const Texture wall_02_01{ U"material/room02/room_02_wall_02_01.png" };
-	const Texture wall_02_02{ U"material/room02/room_02_wall_02_02.png" };
+	const Texture wall_02_01{ Resource(U"material/room02/room_02_wall_02_01.png") };
+	const Texture wall_02_02{ Resource(U"material/room02/room_02_wall_02_02.png") };
 
-	const Texture wall_03_01{ U"material/room02/room_02_wall_03_01.png" };
-	const Texture wall_03_02{ U"material/room02/room_02_wall_03_02.png" };
-	const Texture wall_03_03{ U"material/room02/room_02_wall_03_03.png" };
-
-
-	const Texture key{ U"material/room02/room_02_item_key.png" };
+	const Texture wall_03_01{ Resource(U"material/room02/room_02_wall_03_01.png") };
+	const Texture wall_03_02{ Resource(U"material/room02/room_02_wall_03_02.png") };
+	const Texture wall_03_03{ Resource(U"material/room02/room_02_wall_03_03.png") };
 
 
-	const Audio bgm_01{ U"material/room02/bgm_04.mp3",Arg::loop = true };
-	const Audio se_lock{ U"material/room02/se_door_lock_02.mp3" };
-	const Audio se_unlock{ U"material/room02/se_door_unlock_01.mp3" };
-	const Audio se_bottun_panel{ U"material/room02/se_bottun_03.mp3" };
-	const Audio se_item_drop{ U"material/room02/se_grap_01.mp3" };
+	const Texture key{ Resource(U"material/room02/room_02_item_key.png") };
+
+
+	const Audio bgm_01{ Resource(U"material/room02/bgm_04.mp3"),Arg::loop = true };
+	const Audio se_lock{ Resource(U"material/room02/se_door_lock_02.mp3" )};
+	const Audio se_unlock{ Resource(U"material/room02/se_door_unlock_01.mp3" )};
+	const Audio se_bottun_panel{ Resource(U"material/room02/se_bottun_03.mp3" )};
+	const Audio se_item_drop{ Resource(U"material/room02/se_grap_01.mp3") };
 
 public:
 	Room02();

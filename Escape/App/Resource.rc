@@ -59,62 +59,62 @@ Resource(engine/soundfont/GMGSx.sf2.zstdcmp)
 //
 //////////////////////////////////////////////////////
 
-/*
-//common
-Resource(material / common / how_to_play.png)
 
-Resource(material / common / bgm_02.mp3)
-Resource(material / common / bgm_01.mp3)
-Resource(material / common / se_bottun_01.mp3)
-Resource(material / common / se_item_01.mp3)
+//common
+Resource(material/common/how_to_play.png)
+
+Resource(material/common/bgm_02.mp3)
+Resource(material/common/bgm_01.mp3)
+Resource(material/common/se_bottun_01.mp3)
+Resource(material/common/se_item_01.mp3)
 
 
 //Room01
-Resource(material / room01 / room_01_wall_00_01.png)
-Resource(material / room01 / room_01_wall_00_02.png)
-Resource(material / room01 / room_01_wall_00_03.png)
-Resource(material / room01 / room_01_wall_00_04.png)
-Resource(material / room01 / room_01_wall_00_05.png)
-Resource(material / room01 / room_01_wall_01_01.png)
-Resource(material / room01 / room_01_wall_01_02.png)
-Resource(material / room01 / room_01_wall_02_01.png)
-Resource(material / room01 / room_01_wall_02_02.png)
-Resource(material / room01 / room_01_wall_03_01.png)
-Resource(material / room01 / room_01_wall_03_02.png)
+Resource(material/room01/room_01_wall_00_01.png)
+Resource(material/room01/room_01_wall_00_02.png)
+Resource(material/room01/room_01_wall_00_03.png)
+Resource(material/room01/room_01_wall_00_04.png)
+Resource(material/room01/room_01_wall_00_05.png)
+Resource(material/room01/room_01_wall_01_01.png)
+Resource(material/room01/room_01_wall_01_02.png)
+Resource(material/room01/room_01_wall_02_01.png)
+Resource(material/room01/room_01_wall_02_02.png)
+Resource(material/room01/room_01_wall_03_01.png)
+Resource(material/room01/room_01_wall_03_02.png)
 
-Resource(material / room01 / room_01_item_ball_r.png)
-Resource(material / room01 / room_01_item_ball_g.png)
-Resource(material / room01 / room_01_item_ball_b.png)
-Resource(material / room01 / room_01_item_ball_v.png)
-Resource(material / room01 / room_01_item_ball_y.png)
+Resource(material/room01/room_01_item_ball_r.png)
+Resource(material/room01/room_01_item_ball_g.png)
+Resource(material/room01/room_01_item_ball_b.png)
+Resource(material/room01/room_01_item_ball_v.png)
+Resource(material/room01/room_01_item_ball_y.png)
 
-Resource(material / room01 / bgm_03.mp3)
-Resource(material / room01 / se_door_lock_01.mp3)
-Resource(material / room01 / se_door_unlock_02.mp3)
-Resource(material / room01 / se_bottun_02.mp3)
-Resource(material / room01 / se_grap_01.mp3)
+Resource(material/room01/bgm_03.mp3)
+Resource(material/room01/se_door_lock_01.mp3)
+Resource(material/room01/se_door_unlock_02.mp3)
+Resource(material/room01/se_bottun_02.mp3)
+Resource(material/room01/se_grap_01.mp3)
 
 
 //Room02
-Resource(material / room02 / room_01_wall_00_01.png)
-Resource(material / room02 / room_01_wall_00_02.png)
-Resource(material / room02 / room_01_wall_00_03.png)
-Resource(material / room02 / room_01_wall_00_04.png)
-Resource(material / room02 / room_01_wall_01_01.png)
-Resource(material / room02 / room_01_wall_02_01.png)
-Resource(material / room02 / room_01_wall_02_02.png)
-Resource(material / room02 / room_01_wall_03_01.png)
-Resource(material / room02 / room_01_wall_03_02.png)
-Resource(material / room02 / room_01_wall_03_03.png)
+Resource(material/room02/room_02_wall_00_01.png)
+Resource(material/room02/room_02_wall_00_02.png)
+Resource(material/room02/room_02_wall_00_03.png)
+Resource(material/room02/room_02_wall_00_04.png)
+Resource(material/room02/room_02_wall_01_01.png)
+Resource(material/room02/room_02_wall_02_01.png)
+Resource(material/room02/room_02_wall_02_02.png)
+Resource(material/room02/room_02_wall_03_01.png)
+Resource(material/room02/room_02_wall_03_02.png)
+Resource(material/room02/room_02_wall_03_03.png)
 
-Resource(material / room02 / room_01_item_key.png)
+Resource(material/room02/room_02_item_key.png)
 
-Resource(material / room02 / bgm_04.mp3)
-Resource(material / room02 / se_door_lock_02.mp3)
-Resource(material / room02 / se_door_unlock_01.mp3)
-Resource(material / room02 / se_bottun_03.mp3)
-Resource(material / room02 / se_grap_01.mp3)
-*/
+Resource(material/room02/bgm_04.mp3)
+Resource(material/room02/se_door_lock_02.mp3)
+Resource(material/room02/se_door_unlock_01.mp3)
+Resource(material/room02/se_bottun_03.mp3)
+Resource(material/room02/se_grap_01.mp3)
+
 
 
 

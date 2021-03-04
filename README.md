@@ -1,14 +1,20 @@
-脱出ゲームです。開発中。
+# 脱出ゲーム
 
-操作方法：左クリックのみ
+## ゲームについて
+脱出ゲームです。部屋のドアから脱出してください。
 
-使用エンジン：
+
+## 操作方法
+
+左クリックのみ
+
+## 使用エンジン
 
 OpenSiv3d v0.4.3
 
 
 
 
-BGM・SE:
+## BGM・SE
 
-魔王魂（https://maoudamashii.jokersounds.com ）
+[魔王魂](https://maoudamashii.jokersounds.com)
